@@ -32,7 +32,7 @@ This project was created in the Android Studio latest version (Hedgehog) and ena
 
 #### Screenshots
 
-<img src="https://github.com/hajc1294/MapsApp/assets/61942641/452ccb97-9fc6-4eba-a72e-0abba0bd1993" width="250">   <img src="https://github.com/hajc1294/MapsApp/assets/61942641/0ced1211-ccb6-468d-ad76-970c9894dbd1" width="250">   <img src="https://github.com/hajc1294/MapsApp/assets/61942641/70115510-aba5-40de-addf-a0cfd3dbbf59" width="250">
+<img src="https://github.com/hajc1294/KotlinMapsApp/assets/61942641/be78c23c-bbd3-4a35-89e6-ee9fb747d39f" width="250">   <img src="https://github.com/hajc1294/KotlinMapsApp/assets/61942641/0a5a67e2-3684-49a1-908b-91c860c31077" width="250">   <img src="https://github.com/hajc1294/KotlinMapsApp/assets/61942641/f257f7db-5537-4cd0-9299-ad7ead784264" width="250">
 
 #### Documentation
 
