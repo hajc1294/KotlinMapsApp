@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MapsApp</string>
+
+    <!-- Start Activity -->
+    <string name="start_activity_title">Antes de empezar</string>
+    <string name="start_activity_description">La próxima vex que ingreses a la aplicación se te solicitará acceso vía autenticación biométrica, por lo que es necesario configurarla.</string>
+    <string name="start_activity_action">Configurar</string>
+
+    <!-- Main Activity -->
+    <string name="search_place">Search place …</string>
+    <string name="current_location">Current location</string>
+    <string name="info">Info</string>
+    <string name="start">Start</string>
+    <string name="finish">Finish</string>
+    <string name="custom_location">Custom location</string>
+
+    <!-- Search Activity -->
+    <string name="no_data">No data to show</string>
+    <string name="clear_history">Clear history</string>
+
+    <!-- Placeholders -->
+    <string name="base_location_name_default">Without data</string>
+    <string name="base_location_desc_default">Where do you want to go?</string>
+    <string name="place_default_title">Place name</string>
+    <string name="place_default_description">Place description</string>
+    <string name="distance_route_default">10 km</string>
+    <string name="duration_route_default">20 min</string>
+
+    <!-- Errors -->
+    <string name="request_directions_error">Error retrieving route information</string>
+    <string name="request_places_error">Error retrieving requested information</string>
+
+    <!-- Content descriptions -->
+    <string name="menu_icon">menu_icon</string>
+    <string name="search_voice_icon">search_voice_icon</string>
+    <string name="location_icon">location_icon</string>
+    <string name="my_location_fab">my_location_fab</string>
+    <string name="clear_map_fab">clear_map_fab</string>
+    <string name="back_icon">back_icon</string>
+    <string name="clean_search_icon">clean_search_icon</string>
+    <string name="item_place_icon">item_place_icon</string>
+    <string name="item_action_icon">item_action_icon</string>
+    <string name="route_icon">route_icon</string>
+    <string name="duration_icon">duration_icon</string>
+    <string name="data_icon">data_icon</string>
+    <string name="google_watermark">google_watermark</string>
+</resources>

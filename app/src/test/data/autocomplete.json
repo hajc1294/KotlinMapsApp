@@ -1,0 +1,222 @@
+{
+    "predictions": [
+        {
+            "description": "Alberta, Canada",
+            "matched_substrings": [
+                {
+                    "length": 7,
+                    "offset": 0
+                }
+            ],
+            "place_id": "ChIJtRkkqIKyCVMRno6bQJpHqbA",
+            "reference": "ChIJtRkkqIKyCVMRno6bQJpHqbA",
+            "structured_formatting": {
+                "main_text": "Alberta",
+                "main_text_matched_substrings": [
+                    {
+                        "length": 7,
+                        "offset": 0
+                    }
+                ],
+                "secondary_text": "Canada"
+            },
+            "terms": [
+                {
+                    "offset": 0,
+                    "value": "Alberta"
+                },
+                {
+                    "offset": 9,
+                    "value": "Canada"
+                }
+            ],
+            "types": [
+                "administrative_area_level_1",
+                "political",
+                "geocode"
+            ]
+        },
+        {
+            "description": "Alberta Beach, AB, Canada",
+            "matched_substrings": [
+                {
+                    "length": 7,
+                    "offset": 0
+                }
+            ],
+            "place_id": "ChIJs7U16TSen1MRTSKfkItZHqQ",
+            "reference": "ChIJs7U16TSen1MRTSKfkItZHqQ",
+            "structured_formatting": {
+                "main_text": "Alberta Beach",
+                "main_text_matched_substrings": [
+                    {
+                        "length": 7,
+                        "offset": 0
+                    }
+                ],
+                "secondary_text": "AB, Canada"
+            },
+            "terms": [
+                {
+                    "offset": 0,
+                    "value": "Alberta Beach"
+                },
+                {
+                    "offset": 15,
+                    "value": "AB"
+                },
+                {
+                    "offset": 19,
+                    "value": "Canada"
+                }
+            ],
+            "types": [
+                "locality",
+                "political",
+                "geocode"
+            ]
+        },
+        {
+            "description": "Alberta Children's Hospital, Oki Drive, Calgary, AB, Canada",
+            "matched_substrings": [
+                {
+                    "length": 7,
+                    "offset": 0
+                }
+            ],
+            "place_id": "ChIJGck7jQFvcVMRR8MLCeTNYj4",
+            "reference": "ChIJGck7jQFvcVMRR8MLCeTNYj4",
+            "structured_formatting": {
+                "main_text": "Alberta Children's Hospital",
+                "main_text_matched_substrings": [
+                    {
+                        "length": 7,
+                        "offset": 0
+                    }
+                ],
+                "secondary_text": "Oki Drive, Calgary, AB, Canada"
+            },
+            "terms": [
+                {
+                    "offset": 0,
+                    "value": "Alberta Children's Hospital"
+                },
+                {
+                    "offset": 29,
+                    "value": "Oki Drive"
+                },
+                {
+                    "offset": 40,
+                    "value": "Calgary"
+                },
+                {
+                    "offset": 49,
+                    "value": "AB"
+                },
+                {
+                    "offset": 53,
+                    "value": "Canada"
+                }
+            ],
+            "types": [
+                "hospital",
+                "health",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "description": "Alberta Arts District, Portland, OR, USA",
+            "matched_substrings": [
+                {
+                    "length": 7,
+                    "offset": 0
+                }
+            ],
+            "place_id": "ChIJCzeG4hCnlVQR8-L1qDrozLg",
+            "reference": "ChIJCzeG4hCnlVQR8-L1qDrozLg",
+            "structured_formatting": {
+                "main_text": "Alberta Arts District",
+                "main_text_matched_substrings": [
+                    {
+                        "length": 7,
+                        "offset": 0
+                    }
+                ],
+                "secondary_text": "Portland, OR, USA"
+            },
+            "terms": [
+                {
+                    "offset": 0,
+                    "value": "Alberta Arts District"
+                },
+                {
+                    "offset": 23,
+                    "value": "Portland"
+                },
+                {
+                    "offset": 33,
+                    "value": "OR"
+                },
+                {
+                    "offset": 37,
+                    "value": "USA"
+                }
+            ],
+            "types": [
+                "colloquial_area",
+                "political",
+                "geocode"
+            ]
+        },
+        {
+            "description": "Alberta Abbey, Northeast Alberta Street, Portland, OR, USA",
+            "matched_substrings": [
+                {
+                    "length": 7,
+                    "offset": 0
+                }
+            ],
+            "place_id": "ChIJy1xDxhCnlVQR5H5RyR9xfQw",
+            "reference": "ChIJy1xDxhCnlVQR5H5RyR9xfQw",
+            "structured_formatting": {
+                "main_text": "Alberta Abbey",
+                "main_text_matched_substrings": [
+                    {
+                        "length": 7,
+                        "offset": 0
+                    }
+                ],
+                "secondary_text": "Northeast Alberta Street, Portland, OR, USA"
+            },
+            "terms": [
+                {
+                    "offset": 0,
+                    "value": "Alberta Abbey"
+                },
+                {
+                    "offset": 15,
+                    "value": "Northeast Alberta Street"
+                },
+                {
+                    "offset": 41,
+                    "value": "Portland"
+                },
+                {
+                    "offset": 51,
+                    "value": "OR"
+                },
+                {
+                    "offset": 55,
+                    "value": "USA"
+                }
+            ],
+            "types": [
+                "real_estate_agency",
+                "point_of_interest",
+                "establishment"
+            ]
+        }
+    ],
+    "status": "OK"
+}

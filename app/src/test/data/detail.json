@@ -1,0 +1,137 @@
+{
+    "html_attributions": [],
+    "result": {
+        "address_components": [
+            {
+                "long_name": "Alberta",
+                "short_name": "AB",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "Canada",
+                "short_name": "CA",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        ],
+        "adr_address": "\u003cspan class=\"region\"\u003eAlberta\u003c/span\u003e, \u003cspan class=\"country-name\"\u003eCanada\u003c/span\u003e",
+        "formatted_address": "Alberta, Canada",
+        "geometry": {
+            "location": {
+                "lat": 53.9332706,
+                "lng": -116.5765035
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 60.00007325052776,
+                    "lng": -109.9996406586994
+                },
+                "southwest": {
+                    "lat": 48.99666707384239,
+                    "lng": -120.0026981426673
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Alberta",
+        "photos": [
+            {
+                "height": 408,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/108933587345666100977\"\u003eJassim Anwar\u003c/a\u003e"
+                ],
+                "photo_reference": "AWU5eFgS841NJ1j_zoJFYUxc4gjTEUhaFtquFjw_mg1dZ7SO7OTLqfylMO2RNR-nJGsxRuJ4bR99c2wNt_PjmrbybFBkDz8hd8YbFfhsxCLk1B1IEDjnwhDEablvWJnMCkTxCm6tHp1WH1uKOwLiiAzVyttVsl5xgnkBvCTYG7JEZYU9dc12",
+                "width": 612
+            },
+            {
+                "height": 3712,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/116439728978381445437\"\u003eChula Rodrigo\u003c/a\u003e"
+                ],
+                "photo_reference": "AWU5eFisGxdjzHyEnywk5wtPkUN8FXRLoy1xvuaj804b0s8g3x4xBbSqEbvm5optEyByHZpP7qBdhOKzTs6efVKmPkgUF_MLo-AJV2PU6N5pHIhuD8gNZeFVvgWbdU0nK1XHY92B8HtoIg8uhStXJNGr39j94-uugZenKkXNM_nIZ7n_AzSB",
+                "width": 5568
+            },
+            {
+                "height": 3078,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/111281168879238618688\"\u003eKovell Hallonquist\u003c/a\u003e"
+                ],
+                "photo_reference": "AWU5eFitW4j8IuEIH76KsYkyNq-6L-BpL7I2v3xbKfsbWv_OQkI2VgFn95ZthHWwj_B1VVgocHVZIxYXh-kAhiEchWLTysa8U-rF5b1iRql1bWstq5wu-5MWWUXFBrf5rNLyl8jpf1JAb09toVoV4Pdq9FQ6MBuvPOF5xu9uTfWECQhmmEKb",
+                "width": 5472
+            },
+            {
+                "height": 1995,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/103551583575841383575\"\u003eDaniel\u003c/a\u003e"
+                ],
+                "photo_reference": "AWU5eFjEwSt0-uDpob0MGMpPIAWrTtxGMhDFwcrDJu5dyXRGvQ1hzLS4a2SqikJ-f89n13oQXCsj5Y77htlSsLYtH8klct77CQmUU_RRvwV7GEx4e773CkH3mcyqQlcxIhE2F4bFYuTvnm_UeI8rRadFrEuvapRZGe7k61zarczxubL0zz__",
+                "width": 5184
+            },
+            {
+                "height": 3078,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/111281168879238618688\"\u003eKovell Hallonquist\u003c/a\u003e"
+                ],
+                "photo_reference": "AWU5eFidIEID76E4xGvG86KtVVKcythLZH9Zi8_hYQWh0t6MZMKc-nkn5lbBnh8H4UBd7Ud7WDaAPO9w3l2KqTzU7LcorSsapSIX2bxso8k_Y9-xK5h-NcytQlzuRlnGNTsPpVPn8LlVaUSkIYdDPZWHIFAN4u5Oq8scmTQSzEEoa34J_U32",
+                "width": 5472
+            },
+            {
+                "height": 3000,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/107013187843292509378\"\u003e* yoavi *\u003c/a\u003e"
+                ],
+                "photo_reference": "AWU5eFj2WvDBcWUspeBr5cK5Eoem08-zExK1kWsvRcqmgNq8J504DmvZPD6akR0ASvcIva_1YQMx3ZmNj9iJCDlGzxElIEqBZL_RP17xq-irNNuSMZCGRlesblPXDv0iWiRccwzTNGihFj4bdZmfaF0ZIhnSbMyO-TC4EcT1g78_zvHju7j8",
+                "width": 4000
+            },
+            {
+                "height": 3882,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/113014452218427520604\"\u003eAmanvi Studio (ਅਮਨ ਮਾਨਵੀ)\u003c/a\u003e"
+                ],
+                "photo_reference": "AWU5eFjQlpWzjjh2RuhcAM0qDkLXO4VEIYm2yrRyTdehAWDOtrEUAI4xOGOv-CAJXgWyxEBDX4Cd3x3D-eJf9ySK99kxmUiIZTEP3m2U9gRQVpmilvf_PdC8QEFoxL7xTS_nwqU5Z3G72sWfZTlrm3eLG0w0hzJU2e3zmTJAElHGJZ95Lbr2",
+                "width": 4852
+            },
+            {
+                "height": 3072,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/111796107354287780926\"\u003eRizwan Khan\u003c/a\u003e"
+                ],
+                "photo_reference": "AWU5eFhiPoNTM5OLzEtXAy8d6i8XL03EEAJqZ9p270GjqWAuT5L7FA4Eo0Fhw8RSaDDTnWNBoJYUb8oCDHhUNgkHEgiiiYfJ7zZ3zMWqczSwIr1rpWPA0k5E8lsSa5ZcQgAQ2-rrr9mw1JqKm0SGX6jT8VpjzigULb950ec1yYVLSK1wKEdw",
+                "width": 4608
+            },
+            {
+                "height": 480,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/105778157114530197375\"\u003eAjai Singh\u003c/a\u003e"
+                ],
+                "photo_reference": "AWU5eFjQVTl8sigxX0ixwnOlesmpYfIJP5YQgrzlkgTafqRJ7YXOU1qgwcPtikZseOS7uTa-tK4Cu2aGcqHo4BNRDwb5WcaNUDtbYwb39K1zOkg8eaHaU_lke094HE6sU4o9qo9wNgX-Jfh57mYoINJUmnXgphuvDiPIgmzckdwzgAKwakzJ",
+                "width": 720
+            },
+            {
+                "height": 252,
+                "html_attributions": [
+                    "\u003ca href=\"https://maps.google.com/maps/contrib/108933587345666100977\"\u003eJassim Anwar\u003c/a\u003e"
+                ],
+                "photo_reference": "AWU5eFgkiHwaTCxATZJhQdo4OPqbxtKWyLeeR7SlULIWN9jnCcYqKSlhXXL4-ecww5JLm4-v-BSDVwq00phA7gp2MNDT7CzO2HbaQwcNoT9l3z1m8D_3IKUdF1YRUCEx3Fr7BCCIxyo0BvFpnxVfs4XBWZJ-fG56fMnRBefyy4IV3Rfv7lb8",
+                "width": 612
+            }
+        ],
+        "place_id": "ChIJtRkkqIKyCVMRno6bQJpHqbA",
+        "reference": "ChIJtRkkqIKyCVMRno6bQJpHqbA",
+        "types": [
+            "administrative_area_level_1",
+            "political"
+        ],
+        "url": "https://maps.google.com/?q=Alberta,+Canada&ftid=0x5309b282a82419b5:0xb0a9479a409b8e9e",
+        "utc_offset": -420,
+        "website": "http://www.alberta.ca/"
+    },
+    "status": "OK"
+}
