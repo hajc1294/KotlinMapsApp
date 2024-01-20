@@ -89,8 +89,8 @@
             android:id="@+id/state_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="-40dp"
-            android:gravity="center"
+            android:paddingTop="200dp"
+            android:gravity="center_horizontal"
             android:orientation="vertical">
             <TextView
                 android:id="@+id/empty_label"

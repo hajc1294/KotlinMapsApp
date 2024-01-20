@@ -24,6 +24,8 @@ import com.jeanca.mapsapp.viewmodels.PlacesViewModel
 
 class SearchPlacesActivity: AppCompatActivity() {
 
+    private val handler = Handler(Looper.getMainLooper())
+    private lateinit var runnable: Runnable
     private lateinit var binding: ActivitySearchPlacesBinding
     private lateinit var placesAdapter: PlacesAdapter
     private lateinit var placesViewModel: PlacesViewModel
@@ -117,6 +119,7 @@ class SearchPlacesActivity: AppCompatActivity() {
 
     private fun searchPlaceListener() {
         binding.searchEditText.addTextChangedListener(object : TextWatcher {
+
             override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
 
             }
@@ -126,12 +129,19 @@ class SearchPlacesActivity: AppCompatActivity() {
             }
 
             override fun afterTextChanged(p0: Editable?) {
-                Handler(Looper.getMainLooper()).postDelayed({
-                    val text = binding.searchEditText.text.toString()
-                    placesViewModel.autocompletePlacesRequest(text)
-                }, 2000)
+                searchPlaceDelay(p0.toString())
             }
         })
+    }
+
+    private fun searchPlaceDelay(searchText: String) {
+        if (this::runnable.isInitialized) {
+            handler.removeCallbacks(runnable)
+        }
+        runnable = Runnable {
+            placesViewModel.autocompletePlacesRequest(searchText)
+        }
+        handler.postDelayed(runnable, 1000)
     }
 
     private fun setOnClickListeners() {
