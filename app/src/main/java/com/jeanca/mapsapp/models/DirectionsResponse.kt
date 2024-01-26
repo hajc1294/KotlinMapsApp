@@ -8,26 +8,16 @@ class DirectionsResponse(
 )
 
 class Routes (
-    @SerializedName("legs") @Expose val legs: List<Legs>
+    @SerializedName("legs") @Expose val legs: List<Legs>,
+    @SerializedName("overview_polyline") @Expose val overviewPolyline: Polyline
 )
 
 class Legs (
-    @SerializedName("distance") @Expose val distance: Distance,
-    @SerializedName("duration") @Expose val duration: Duration,
-    @SerializedName("steps") @Expose val steps: List<Steps>
+    @SerializedName("distance") @Expose val distance: Data,
+    @SerializedName("duration") @Expose val duration: Data
 )
 
-class Steps (
-    @SerializedName("distance") @Expose val distance: Distance,
-    @SerializedName("duration") @Expose val duration: Duration,
-    @SerializedName("polyline") @Expose val polyline: Polyline
-)
-
-class Distance (
-    @SerializedName("text") @Expose val text: String
-)
-
-class Duration (
+class Data (
     @SerializedName("text") @Expose val text: String
 )
 

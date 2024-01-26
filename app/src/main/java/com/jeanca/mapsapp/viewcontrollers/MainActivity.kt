@@ -26,7 +26,6 @@ import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MapStyleOptions
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.gms.maps.model.PolylineOptions
-import com.google.maps.android.PolyUtil
 import com.jeanca.mapsapp.R
 import com.jeanca.mapsapp.commons.Constants.PLACE_DETAIL
 import com.jeanca.mapsapp.commons.Status
@@ -165,7 +164,7 @@ class MainActivity: AppCompatActivity(), OnMapReadyCallback, LocationListener {
             cleanMapData()
         }
         binding.myLocationFab.setOnClickListener {
-            updateMapCamera(true)
+            updateMapCamera(animated = true)
         }
     }
     
@@ -178,27 +177,18 @@ class MainActivity: AppCompatActivity(), OnMapReadyCallback, LocationListener {
             placeResult.geometry.location.lng)
         directionsViewModel.directionsRequest(userViewModel.getCurrentLocation(), placeLocation)
         addMapMarker(placeLocation)
+        updateMapCamera(newLocation = placeLocation, animated = true)
     }
 
     private fun loadRouteInMap() {
-        val directions = directionsViewModel.getDirections()
+        val points = directionsViewModel.getPoints()
 
-        if (directions.isEmpty()) {
+        if (points.isEmpty()) {
             Toast.makeText(applicationContext,
                 resources.getString(R.string.request_directions_error), Toast.LENGTH_SHORT).show()
         } else {
-            val points = arrayListOf<LatLng>()
             val polylineOptions = PolylineOptions()
             loadRouteData()
-
-            directions.flatMap { route ->
-                route.legs
-            }.flatMap { leg ->
-                leg.steps
-            }.forEach { step ->
-                val decodedPoints = PolyUtil.decode(step.polyline.points)
-                points.addAll(decodedPoints)
-            }
 
             polylineOptions.addAll(points)
             polylineOptions.width(8f)
@@ -213,8 +203,8 @@ class MainActivity: AppCompatActivity(), OnMapReadyCallback, LocationListener {
         binding.distanceLabel.text = directionsViewModel.getDistance()
     }
 
-    private fun updateMapCamera(animated: Boolean = false) {
-        val location = userViewModel.getCurrentLocation()
+    private fun updateMapCamera(newLocation: LatLng? = null, animated: Boolean = false) {
+        val location = newLocation ?: userViewModel.getCurrentLocation()
         val camera = CameraUpdateFactory.newLatLngZoom(LatLng(location.latitude,
             location.longitude), 13f)
 

@@ -3,6 +3,7 @@ package com.jeanca.mapsapp.viewmodels
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.google.android.gms.maps.model.LatLng
+import com.google.maps.android.PolyUtil
 import com.jeanca.mapsapp.api.ApiProvider
 import com.jeanca.mapsapp.commons.Constants
 import com.jeanca.mapsapp.commons.Status
@@ -48,4 +49,12 @@ class DirectionsViewModel {
         if (directions.value != null)
              directions.value!![0].legs[0].duration.text
         else String()
+
+    fun getPoints(): List<LatLng> {
+        return if (getDirections().isEmpty()) {
+            listOf()
+        } else {
+            PolyUtil.decode(getDirections()[0].overviewPolyline.points)
+        }
+    }
 }
